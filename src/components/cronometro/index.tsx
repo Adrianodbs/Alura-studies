@@ -1,6 +1,8 @@
 import Botao from "../Botao"
 import Relogio  from "./relogio"
 import style from './cronometro.module.scss'
+import { tempoParaSegundos } from "../../common/utils/date"
+
 
 
 export default function Cronometro(){
